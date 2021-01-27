@@ -14,18 +14,51 @@
     & .speech {
         height: 380px;
         width: 50%;
-        @include FlexAround(380px, column);
+        @include FlexEvenly(380px, column);
+        text-align: justify;
         background-color: map-get($backgroundColor, regular);
-        color: map-get($colorPalette, ocean);
         border: 1px solid map-get($colorPalette, ocean);
         border-radius: 5px;
         margin-bottom: 50px;
-    } 
+        position: relative;
+        
+        & div {
+            & #quote { 
+                @include Font(60px, 700);
+                color: map-get($colorPalette, ocean) !important;
+                position: absolute;
+                top: -10%;
+            }
+        } 
+        
+        & .lorem {
+            color: map-get($colorPalette, choco);
+            padding-left: 30px;
+            padding-right: 30px;
+
+            & .box_founders {
+                @include FlexBetween(100%, row);
+                align-items: center;
+                width: 80%;
+
+                & .founders {
+                    color: map-get($colorPalette, ocean);
+
+                    & div {
+                        color: map-get($colorPalette, choco);
+                    }
+                }
+            }
+        }
+
+
+
+    }
     
     & .sign {
         & .sign_buttons {
             @include FlexCenter(100%, row);
-
+            
             & button {
                 @include Font(15px, 500);
                 font-family: map-get($fontFamily, robot);
