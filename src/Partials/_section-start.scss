@@ -14,10 +14,55 @@
     & .speech {
         height: 380px;
         width: 50%;
+        @include FlexAround(380px, column);
         background-color: map-get($backgroundColor, regular);
         color: map-get($colorPalette, ocean);
         border: 1px solid map-get($colorPalette, ocean);
         border-radius: 5px;
-        @include FlexAround(380px, column);
+        margin-bottom: 50px;
+    } 
+    
+    & .sign {
+        & .sign_buttons {
+            @include FlexCenter(100%, row);
+
+            & button {
+                @include Font(15px, 500);
+                font-family: map-get($fontFamily, robot);
+                background-color: map-get($colorPalette, ocean);
+                color: white;
+                padding: 10px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+    
+                & img {
+                    height: 20px;
+                }
+            }
+        }
+
+        & .email {
+            padding-top: 25px;
+            padding-bottom: 75px;
+            text-align: center;
+
+            & a {
+                &:visited {
+                    @include Font (18px, 300);
+                    font-family: map-get($fontFamily, robot);
+                    text-decoration: none;
+                }
+
+                &:link {
+                    @include Font (16px, 300);
+                    font-family: map-get($fontFamily, robot);
+                    text-decoration: none;
+                }
+        
+            }
+        }
     }  
 } 

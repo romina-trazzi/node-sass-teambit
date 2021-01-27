@@ -557,12 +557,56 @@ main .praise_block_main .second_half_main div .mainImg_Dimension {
 .start .speech {
   height: 380px;
   width: 50%;
-  background-color: white;
-  color: #2c4792;
-  border: 1px solid #2c4792;
-  border-radius: 5px;
   height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: white;
+  color: #2c4792;
+  border: 1px solid #2c4792;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.start .sign .sign_buttons {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.start .sign .sign_buttons button {
+  font-size: 15px;
+  font-weight: 500;
+  color: #58402c;
+  font-family: "Roboto";
+  background-color: #2c4792;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.start .sign .sign_buttons button img {
+  height: 20px;
+}
+.start .sign .email {
+  padding-top: 25px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.start .sign .email a:visited {
+  font-size: 18px;
+  font-weight: 300;
+  color: #58402c;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+.start .sign .email a:link {
+  font-size: 16px;
+  font-weight: 300;
+  color: #58402c;
+  font-family: "Roboto";
+  text-decoration: none;
 }
