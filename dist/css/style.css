@@ -265,6 +265,7 @@ navbar .navbar_dx img {
 }
 .tradition .second_half_tradition .first_block .box_image div img {
   width: 40%;
+  height: 106px;
 }
 .tradition .second_half_tradition .first_block .box_image .solve {
   padding-top: 50px;
@@ -295,4 +296,5 @@ navbar .navbar_dx img {
   letter-spacing: 1.5px;
   padding-bottom: 65px;
   text-align: center;
+  background-color: #ffe7d2;
 }
