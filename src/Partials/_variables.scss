@@ -64,6 +64,11 @@ $colorPalette: ("ocean": rgb(44, 71, 146),
     justify-content: space-evenly;
 }
 
-
+@mixin FlexEnd($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: end;
+}
 
 /* End Mixin di Flexbox */

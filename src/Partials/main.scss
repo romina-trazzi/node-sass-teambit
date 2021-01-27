@@ -75,6 +75,7 @@ main {
             align-items: end;
 
             & .block_text_main {
+                @include FlexAround (320px, column);
 
                 & .main_title {
                     @include Font(18px, 600);
@@ -103,13 +104,20 @@ main {
             }
 
             & .insights {
-                & img {
-                    height: 30%;
-                    text-align: left;
+                width: 50%;
+
+                & .box_insight {
+                    @include FlexEnd (100%, row);
+
+                    & img {
+                        width: 80%;
+
+                    }
                 }
             }
 
         }
+
 
         & .second_half_main {
             width: 50%;

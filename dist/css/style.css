@@ -369,6 +369,12 @@ main .second_block_main .first_half_main {
   flex-direction: column;
   align-items: end;
 }
+main .second_block_main .first_half_main .block_text_main {
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 main .second_block_main .first_half_main .block_text_main .main_title {
   font-size: 18px;
   font-weight: 600;
@@ -389,9 +395,17 @@ main .second_block_main .first_half_main .block_text_main .learn a:visited {
 main .second_block_main .first_half_main .block_text_main .learn a:link {
   text-decoration: none;
 }
-main .second_block_main .first_half_main .insights img {
-  height: 30%;
-  text-align: left;
+main .second_block_main .first_half_main .insights {
+  width: 50%;
+}
+main .second_block_main .first_half_main .insights .box_insight {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+main .second_block_main .first_half_main .insights .box_insight img {
+  width: 80%;
 }
 main .second_block_main .second_half_main {
   width: 50%;
