@@ -5,13 +5,19 @@ $backgroundColor: (
 
 $fontFamily: (
     "regular": "Arial",
-    "bold": "Arial Black"
+    "bold": "Arial Black",
+    "robot": "Roboto"
 );
 
-@mixin Font ($dimension, $color) {
+@mixin Font ($dimension, $weight) {
     font-size: $dimension;
-    color: $color;
-}
+    font-weight: $weight;
+    color: rgb(88,64,44);
+};
+
+$colorPalette: (
+    "ocean": rgb(44,71,146)
+);
 
 
 /* Mixin di Flexbox */

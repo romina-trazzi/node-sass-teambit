@@ -1,14 +1,17 @@
 navbar {
-    @include FlexCenter(100%, row);
-    @include Font(13px, rgb(88,44,64));
-    font-family: map-get($fontFamily, bold);
+    @include FlexBetween(70px, row);
+    @include Font(13px, 700);
+    font-family: map-get($fontFamily, robot);
     background-color: map-get($backgroundColor, regular);
-    height: 70px;
-    width: 100%;
     padding: 22px;
     border-bottom: 1px solid rgb(88, 44, 64);
     padding: 10px;
-    
+
+    .navbar_sx {
+        @include FlexCenter(100%, row);
+        height: 100%;
+    }
+           
     .navbar_dx {
         width: 45%;
         height: 100%;
@@ -20,7 +23,7 @@ navbar {
          
         & span:nth-child(5) {
             @include FlexCenter(100%, row);
-            border: 1px solid rgb(44, 71, 146);
+            border: 1px solid map-get($colorPalette, ocean);
             border-radius: 5px;    ;
             -webkit-border-radius: 5px    ;
             -moz-border-radius: 5px    ;
@@ -37,6 +40,7 @@ navbar {
             height: 30px;
             padding: 2px;
         }
+    
     }
 
     

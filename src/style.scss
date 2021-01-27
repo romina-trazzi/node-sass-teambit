@@ -1,6 +1,6 @@
 @import "Partials/variables";
-@import "Partials/commons";
 @import "Partials/navbar";
+@import "Partials/jumbotron";
 
 * {
     box-sizing: border-box;
@@ -13,12 +13,17 @@ body {
 }
 
 .container {
-    width: 1150px;
+    width: 1170px;
     margin: 0 auto;
     height: 100%;
 }
 
 navbar {
-    @include FlexBetween(70px, row);
+    height: 70px;
+    width: 100%;
 }
 
+.jumbotron {
+    height: 510px;
+    width: 100%;
+}
