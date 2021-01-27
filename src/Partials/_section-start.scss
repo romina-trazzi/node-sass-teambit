@@ -15,6 +15,7 @@
         height: 380px;
         width: 50%;
         background-color: map-get($backgroundColor, regular);
+        color: map-get($colorPalette, ocean);
         border: 1px solid map-get($colorPalette, ocean);
         border-radius: 5px;
         @include FlexAround(380px, column);
