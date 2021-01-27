@@ -36,6 +36,11 @@ navbar {
   height: 2160px;
 }
 
+.start {
+  width: 100%;
+  height: 815px;
+}
+
 navbar {
   height: 70px;
   display: flex;
@@ -529,4 +534,34 @@ main .praise_block_main .second_half_main {
 main .praise_block_main .second_half_main div .mainImg_Dimension {
   width: 520px;
   height: 315px;
+}
+
+.start {
+  font-family: "Roboto";
+  background-color: #ffe7d2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start h1, .start .jumbotron .jumbotron_main .jumbotron_text p, .jumbotron .jumbotron_main .jumbotron_text .start p {
+  padding-top: 65px;
+  margin-bottom: 75px;
+  font-size: 46px;
+  font-weight: 500;
+  color: #58402c;
+  line-height: 1.9;
+  letter-spacing: 1.5px;
+}
+.start .speech {
+  height: 380px;
+  width: 50%;
+  background-color: white;
+  border: 1px solid #2c4792;
+  border-radius: 5px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

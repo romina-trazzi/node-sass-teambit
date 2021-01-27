@@ -29,3 +29,7 @@ navbar {
 .main {
     @include SectionDimension(100%, 2160px);
 }
+
+.start {
+    @include SectionDimension(100%, 815px);
+}

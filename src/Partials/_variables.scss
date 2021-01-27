@@ -1,15 +1,15 @@
 @mixin SectionDimension ($w, $h) {
     width: $w;
     height: $h;
-}
-
-;
+};
 
 
-$backgroundColor: ("regular": white,
+$backgroundColor: (
+    "regular": white,
     "special": rgb(255, 231, 210));
 
-$fontFamily: ("regular": "Arial",
+$fontFamily: (
+    "regular": "Arial",
     "bold": "Arial Black",
     "robot": "Roboto"
 );
@@ -18,18 +18,17 @@ $fontFamily: ("regular": "Arial",
     font-size: $dimension;
     font-weight: $weight;
     color: rgb(88, 64, 44);
-}
+};
 
 ;
 
 @mixin MainImg-Dimension {
     width: 520px;
     height: 315px;
-}
+};
 
-;
-
-$colorPalette: ("ocean": rgb(44, 71, 146),
+$colorPalette: (
+    "ocean": rgb(44, 71, 146),
     "chocolate": rgb(88, 64, 44));
 
 
@@ -41,34 +40,34 @@ $colorPalette: ("ocean": rgb(44, 71, 146),
     flex-direction: $direction;
     justify-content: center;
     align-items: center;
-}
+};
 
 @mixin FlexAround($height, $direction) {
     height: $height;
     display: flex;
     flex-direction: $direction;
     justify-content: space-around;
-}
+};
 
 @mixin FlexBetween($height, $direction) {
     height: $height;
     display: flex;
     flex-direction: $direction;
     justify-content: space-between;
-}
+};
 
 @mixin FlexEvenly($height, $direction) {
     height: $height;
     display: flex;
     flex-direction: $direction;
     justify-content: space-evenly;
-}
+};
 
 @mixin FlexEnd($height, $direction) {
     height: $height;
     display: flex;
     flex-direction: $direction;
     justify-content: end;
-}
+};
 
 /* End Mixin di Flexbox */

@@ -7,7 +7,9 @@
         "Partials/_common.scss",
         "Partials/_navbar.scss",
         "Partials/_jumbotron.scss",
-        "Partials/_tradition.scss"
+        "Partials/_section-tradition.scss",
+        "Partials/_main.scss",
+        "Partials/_section-start.scss"
     ],
     "names": [],
     "file": "style.css"

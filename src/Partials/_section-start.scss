@@ -1,0 +1,22 @@
+.start {
+    font-family: map-get($fontFamily, robot);
+    background-color: map-get($backgroundColor, special);
+    @include FlexCenter(100%, column);
+    
+    & h1 {
+        padding-top: 65px;
+        margin-bottom: 75px;
+        @include Font(46px, 500);
+        line-height: 1.9;
+        letter-spacing: 1.5px;
+    }
+
+    & .speech {
+        height: 380px;
+        width: 50%;
+        background-color: map-get($backgroundColor, regular);
+        border: 1px solid map-get($colorPalette, ocean);
+        border-radius: 5px;
+        @include FlexAround(380px, column);
+    }  
+} 
