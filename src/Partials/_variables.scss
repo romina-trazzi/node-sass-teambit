@@ -1,0 +1,41 @@
+$backgroundColor: (
+    "regular": white,
+    "special": rgb(255, 231,210)
+);
+
+$fontFamily: (
+    "regular": "Arial",
+    "bold": "Arial Black"
+);
+
+@mixin Font ($dimension, $color) {
+    font-size: $dimension;
+    color: $color;
+}
+
+
+/* Mixin di Flexbox */
+
+@mixin FlexCenter($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin FlexAround($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-around;
+}
+
+@mixin FlexBetween($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+}
+
+/* End Mixin di Flexbox */

@@ -1,0 +1,74 @@
+/* Mixin di Flexbox */
+/* End Mixin di Flexbox */
+navbar {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #582c40;
+  font-family: "Arial Black";
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  padding: 22px;
+  border-bottom: 1px solid #582c40;
+  padding: 10px;
+}
+navbar .navbar_dx {
+  width: 45%;
+  height: 100%;
+}
+navbar .navbar_dx div {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+navbar .navbar_dx span:nth-child(5) {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2c4792;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 5px;
+}
+navbar .navbar_dx span:nth-child(5) span:nth-child(2) {
+  padding: 5px;
+}
+navbar .navbar_dx img {
+  height: 30px;
+  padding: 2px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+navbar {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

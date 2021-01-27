@@ -1,0 +1,49 @@
+navbar {
+    @include FlexCenter(100%, row);
+    @include Font(13px, rgb(88,44,64));
+    font-family: map-get($fontFamily, bold);
+    background-color: map-get($backgroundColor, regular);
+    height: 70px;
+    width: 100%;
+    padding: 22px;
+    border-bottom: 1px solid rgb(88, 44, 64);
+    padding: 10px;
+    
+    .navbar_dx {
+        width: 45%;
+        height: 100%;
+        & div {
+            @include FlexBetween(100%, row);
+            width: 100%;
+            align-items: center;
+        }
+         
+        & span:nth-child(5) {
+            @include FlexCenter(100%, row);
+            border: 1px solid rgb(44, 71, 146);
+            border-radius: 5px;    ;
+            -webkit-border-radius: 5px    ;
+            -moz-border-radius: 5px    ;
+            -ms-border-radius: 5px    ;
+            -o-border-radius: 5px    ;
+            padding: 10px 5px;
+
+            & span:nth-child(2) {
+                padding: 5px;
+            }
+        }
+        
+        & img {
+            height: 30px;
+            padding: 2px;
+        }
+    }
+
+    
+    
+}
+
+
+
+
+
