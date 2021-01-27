@@ -237,6 +237,9 @@ navbar .navbar_dx img {
   position: absolute;
   left: 10%;
 }
+.tradition .second_half_tradition {
+  height: 988px;
+}
 .tradition .second_half_tradition .title_block {
   height: 325px;
 }
@@ -247,10 +250,11 @@ navbar .navbar_dx img {
   letter-spacing: 1.5px;
 }
 .tradition .second_half_tradition .first_block {
-  height: 190px;
+  height: 200px;
   display: flex;
 }
 .tradition .second_half_tradition .first_block .box_image {
+  width: 33%;
   height: 140px;
   display: flex;
   flex-direction: column;
@@ -262,21 +266,33 @@ navbar .navbar_dx img {
 .tradition .second_half_tradition .first_block .box_image div img {
   width: 40%;
 }
-.tradition .second_half_tradition .first_block .box_image .issue {
+.tradition .second_half_tradition .first_block .box_image .solve {
   padding-top: 50px;
 }
+.tradition .second_half_tradition .first_block .box_image .mini {
+  height: 74%;
+  width: auto;
+}
 .tradition .second_half_tradition .second_block {
-  height: 532px;
+  height: 463px;
   width: 100%;
   position: relative;
 }
-.tradition .second_half_tradition .second_block .box_image_before {
+.tradition .second_half_tradition .second_block .box_image_after {
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.tradition .second_half_tradition .second_block .box_image_before img {
+.tradition .second_half_tradition .second_block .box_image_after img {
   height: 50%;
+}
+.tradition .second_half_tradition .second_block .how_works {
+  font-size: 18px;
+  font-weight: 600;
+  color: #58402c;
+  letter-spacing: 1.5px;
+  padding-bottom: 65px;
+  text-align: center;
 }

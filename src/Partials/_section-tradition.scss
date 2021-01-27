@@ -67,6 +67,8 @@
     }
 
     & .second_half_tradition {
+        height: 1900px - 912px;
+
         & .title_block {
             height: 325px;
 
@@ -79,10 +81,11 @@
         }
 
         & .first_block {
-            height: 190px;
+            height: 200px;
             display: flex;
 
             & .box_image {
+                width: 33%;
                 height: 140px;
                 display: flex;
                 flex-direction: column;
@@ -96,29 +99,44 @@
                     }
                 }
 
-                & .issue {
+                & .solve {
                     padding-top: 50px;
+                }
+
+                & .mini {
+                    height: 74%;
+                    width: auto;
                 }
             }
         }
 
         & .second_block {
-            height: 532px;
+            height: 988px - 325px - 200px;
             width: 100%;
             position: relative;
 
-            & .box_image_before {
-                @include FlexCenter(100%, row);
+            & .box_image_after {
+                @include FlexCenter(100%, column);
 
                 & img {
                     height: 50%;
                 }
             }
 
+            & .how_works {
+                @include Font(18px, 600);
+                letter-spacing: 1.5px;
+                padding-bottom: 65px;
+                text-align: center;
+            }
+
+
+
 
 
 
         }
+
     }
 
 
