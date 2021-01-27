@@ -1,3 +1,11 @@
+@mixin SectionDimension ($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+;
+
+
 $backgroundColor: ("regular": white,
     "special": rgb(255, 231, 210));
 
@@ -10,6 +18,13 @@ $fontFamily: ("regular": "Arial",
     font-size: $dimension;
     font-weight: $weight;
     color: rgb(88, 64, 44);
+}
+
+;
+
+@mixin MainImg-Dimension {
+    width: 520px;
+    height: 315px;
 }
 
 ;

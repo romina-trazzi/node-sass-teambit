@@ -9,22 +9,23 @@ body {
 }
 
 .container {
-    width: 1170px;
-    margin: 0 auto;
+    width: 1150px;
     height: 100%;
+    margin: 0 auto;
 }
 
 navbar {
-    height: 70px;
-    width: 100%;
+    @include SectionDimension(100%, 70px);
 }
 
 .jumbotron {
-    height: 600px;
-    width: 100%;
+    @include SectionDimension(100%, 600px);
 }
 
 .tradition {
-    height: 1900px;
-    width: 100%;
+    @include SectionDimension(100%, 1900px);
+}
+
+.main {
+    @include SectionDimension(100%, 2160px);
 }
