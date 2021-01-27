@@ -1,10 +1,9 @@
 $backgroundColor: (
     "regular": white,
-    "special": rgb(255, 231,210)
+    "special": rgb(255, 231, 210)
 );
 
-$fontFamily: (
-    "regular": "Arial",
+$fontFamily: ("regular": "Arial",
     "bold": "Arial Black",
     "robot": "Roboto"
 );
@@ -12,11 +11,13 @@ $fontFamily: (
 @mixin Font ($dimension, $weight) {
     font-size: $dimension;
     font-weight: $weight;
-    color: rgb(88,64,44);
-};
+    color: rgb(88, 64, 44);
+}
+
+;
 
 $colorPalette: (
-    "ocean": rgb(44,71,146)
+    "ocean": rgb(44, 71, 146)
 );
 
 

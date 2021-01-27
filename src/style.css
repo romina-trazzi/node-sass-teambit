@@ -1,0 +1,280 @@
+/* Mixin di Flexbox */
+/* End Mixin di Flexbox */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+navbar {
+  height: 70px;
+  width: 100%;
+}
+
+.jumbotron {
+  height: 510px;
+  width: 100%;
+}
+
+.traditional {
+  height: 1900px;
+  width: 100%;
+}
+
+navbar {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  font-weight: 700;
+  color: #58402c;
+  font-family: "Roboto";
+  background-color: white;
+  padding: 22px;
+  border-bottom: 1px solid #582c40;
+  padding: 10px;
+}
+
+navbar .navbar_sx {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+navbar .navbar_dx {
+  width: 45%;
+  height: 100%;
+}
+
+navbar .navbar_dx div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+navbar .navbar_dx span:nth-child(5) {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #2c4792;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 5px;
+}
+
+navbar .navbar_dx span:nth-child(5) span:nth-child(2) {
+  padding: 5px;
+}
+
+navbar .navbar_dx img {
+  height: 30px;
+  padding: 2px;
+}
+
+.jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jumbotron .jumbotron_sx {
+  width: 55%;
+  height: 100%;
+}
+
+.jumbotron .jumbotron_sx .jumbotron_text h1, .jumbotron .jumbotron_sx .jumbotron_text p {
+  font-size: 46px;
+  font-weight: 500;
+  color: #58402c;
+  font-family: "Roboto";
+  padding-top: 65px;
+  line-height: 1.9;
+  letter-spacing: 1.5px;
+}
+
+.jumbotron .jumbotron_sx .jumbotron_text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #58402c;
+  font-family: "Roboto";
+  padding-top: 5px;
+  padding-bottom: 55px;
+}
+
+.jumbotron .jumbotron_sx .jumbotron_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumbotron .jumbotron_sx .jumbotron_buttons button {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #58402c;
+  font-family: "Roboto";
+  background-color: #2c4792;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.jumbotron .jumbotron_sx .jumbotron_buttons button img {
+  height: 20px;
+}
+
+.jumbotron .jumbotron_sx .jumbotron_buttons span {
+  margin: 5px;
+}
+
+.jumbotron .jumbotron_sx .email {
+  padding-top: 25px;
+}
+
+.jumbotron .jumbotron_sx .email a:visited {
+  font-size: 16px;
+  font-weight: 300;
+  color: #58402c;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+.jumbotron .jumbotron_sx .email a:link {
+  font-size: 16px;
+  font-weight: 300;
+  color: #58402c;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+.jumbotron .jumbotron_dx {
+  width: 45%;
+  height: 100%;
+}
+
+.jumbotron .jumbotron_dx .illustration {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.jumbotron .jumbotron_dx .illustration img {
+  width: 100%;
+  height: 70%;
+}
+
+.tradition {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #58402c;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,90 +1,132 @@
 <!DOCTYPE html>
 <html lang="it">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--meta properties -->
-    <meta name="author" content="Romina Trazzi">
-    <meta name="description" content="Esercizio Teambit con Sass\Scss">
-    <meta name="keywords" content="sass, scss">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;900&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:@200;600;400;800" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--meta properties -->
+        <meta name="author" content="Romina Trazzi">
+        <meta name="description" content="Esercizio Teambit con Sass\Scss">
+        <meta name="keywords" content="sass, scss">
+        <link rel="stylesheet" href="dist/css/style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:@200;600;400;800" rel="stylesheet">
+    </head>
 
-<body>
-    <div class="container">
-        
-        <!-- Navbar -->
-        <navbar>
-            <!-- Navbar sx -->
-            <div class="navbar_sx">
-                <div class="logo">
-                    <img src ="dist\img\logo.svg" alt="logo di Teambit">
+    <body>
+        <div class="container">
+
+            <!-- Navbar -->
+            <navbar>
+                <!-- Navbar sx -->
+                <div class="navbar_sx">
+                    <div class="logo">
+                        <img src="dist\img\logo.svg" alt="logo di Teambit">
+                    </div>
                 </div>
-            </div>
-            <!-- / Navbar sx -->
+                <!-- / Navbar sx -->
 
-            <!-- Navbar dx -->
-            <div class="navbar_dx">
-                <div>
-                    <span> Solutions </span>
-                    <span> Pricing </span>
-                    <span> Blog </span>
-                    <span> Sign in </span>
-                    <span>
-                        <img src ="dist\img\google-logo.svg">
-                        <span> Sign Up </span>
-                    </span> 
+                <!-- Navbar dx -->
+                <div class="navbar_dx">
+                    <div>
+                        <span> Solutions </span>
+                        <span> Pricing </span>
+                        <span> Blog </span>
+                        <span> Sign in </span>
+                        <span>
+                            <img src="dist\img\google-logo.svg">
+                            <span> Sign Up </span>
+                        </span>
+                    </div>
                 </div>
-            </div>
-            <!-- / Navbar dx -->
+                <!-- / Navbar dx -->
 
-        </navbar>
-        <!-- / Navbar -->
+            </navbar>
+            <!-- / Navbar -->
 
-        <!-- Jumbotron -->
-        <div class="jumbotron">
+            <!-- Jumbotron -->
+            <div class="jumbotron">
 
-            <!-- Jumbotron sx -->
-            <div class="jumbotron_sx">
+                <!-- Jumbotron main -->
+                <div class="jumbotron_main">
+                    
+                    <!-- Jumbotron text-->
+                    <div class="jumbotron_text">
+                        <h1>Understand, recognize <br> and develop your <br> people</h1>
+                        <p>Teambit helps teams create a high performing <br> culture feedback.</p>
+                    </div>
+                    <!-- / Jumbotron text-->
 
-                <div class="jumbotron_text">
-                    <h1>Understand, recognize <br> and develop your <br> people</h1>
-                    <p>Teambit helps teams create a high performing  <br> culture feedback.</p>
+                    <!-- Jumbotron image -->
+                    <div class="jumbotron_image">
+                        <div class="illustration">
+                            <img src="dist\img\illustration-main.jpg" alt="riunione con lavagna e trendline">
+                        </div>
+                    </div>
+                    <!-- / Jumbotron image -->
+
                 </div>
-            
-                <div class="jumbotron_buttons">
-                    <button> <img src="dist/img/google-logo.svg" alt="">Sign up with Google</button>
-                    <span>or</span>
-                    <button> <img src="dist/img/slack-logo.svg" alt="">Sign up with Slack</button>
-                </div>
-
-                <div class ="email">
-                    <a href="#">or use your email address <i class="fas fa-arrow-right"></i></a>
-                </div>
-            
-            </div>
-            <!-- / Jumbotron sx -->
+                <!-- / Jumbotron main -->
                 
-            <!-- Jumbotron dx -->
-            <div class="jumbotron_dx">
-                <div class="illustration">
-                    <img src ="dist\img\illustration-main.jpg" alt="riunione con lavagna e trendline">
+                <!-- Jumbotron second -->
+                <div class="jumbotron_second">
+
+                    <div class="jumbotron_buttons">
+                        <button> <img src="dist/img/google-logo.svg" alt="">Sign up with Google</button>
+                        <span>or</span>
+                        <button> <img src="dist/img/slack-logo.svg" alt="">Sign up with Slack</button>
+                    </div>
+
+                    <div class="email">
+                        <a href="#">or use your email address <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
                 </div>
+                <!-- / Jumbotron second -->
+
+            </div>
+            <!-- / Jumbotron -->
+
+            <!-- Tradition -->
+            <div class="tradition">
+
+                <h2>Traditional people processes lead to <br> disengagement and turnover.</h2>
+
+                <!-- First block tradition-->
+                
+                <div class="first_block">
+                   
+                    <div class="block_img">
+                        <img src="dist/img/hardcore.png">
+                        <div>They are hardcore, formal and disconnected</div>
+                    </div>
+                    
+                    <div class="block_img">
+                        <img src="dist/img/nofeedback.png">
+                        <div>They don't encourage regular feedback</div>
+                    </div>
+
+                    <div class="block_img">
+                        <img src="dist/img/notsafe.png">
+                        <div>They don't make to speak up</div>
+                    </div>
+                </div>
+                <!-- / First block tradition-->
+                
+           
+        
+            </div>
+
+
+
+
+
+
+
         </div>
-        <!-- / Navbar sx -->
-    
-        </div>
+        <script src="dist/js/main.js"></script>
+    </body>
 
-    </div>
-   
-
-
-
-    <script src="dist/js/main.js"></script>
-</body>
-
-</html> 
+</html>
