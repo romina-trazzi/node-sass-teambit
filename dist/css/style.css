@@ -308,12 +308,12 @@ main {
   font-family: "Roboto";
   background-color: white;
 }
-main .first_block_main {
+main .feedback_block_main {
   margin-top: 125px;
   margin-bottom: 65px;
   display: flex;
 }
-main .first_block_main .first_half_main {
+main .feedback_block_main .first_half_main {
   width: 50%;
   height: 100%;
   display: flex;
@@ -321,93 +321,93 @@ main .first_block_main .first_half_main {
   justify-content: center;
   align-items: center;
 }
-main .first_block_main .first_half_main div .mainImg_Dimension {
+main .feedback_block_main .first_half_main div .mainImg_Dimension {
   width: 520px;
   height: 315px;
 }
-main .second_half_main {
+main .feedback_block_main .second_half_main {
   width: 50%;
 }
-main .second_half_main .block_text_main {
+main .feedback_block_main .second_half_main .block_text_main {
   height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-main .second_half_main .block_text_main .main_title {
+main .feedback_block_main .second_half_main .block_text_main .main_title {
   font-size: 18px;
   font-weight: 600;
   color: #58402c;
   letter-spacing: 1.2px;
   line-height: 1.9;
 }
-main .second_half_main .block_text_main .main_message {
+main .feedback_block_main .second_half_main .block_text_main .main_message {
   font-size: 14px;
   font-weight: 300;
   color: #58402c;
   word-spacing: 10px;
   line-height: 1.5;
 }
-main .second_half_main .block_text_main .learn a:visited {
+main .feedback_block_main .second_half_main .block_text_main .learn a:visited {
   text-decoration: none;
 }
-main .second_half_main .block_text_main .learn a:link {
+main .feedback_block_main .second_half_main .block_text_main .learn a:link {
   text-decoration: none;
 }
-main .second_half_main .communication img {
+main .feedback_block_main .second_half_main .communication img {
   height: 50%;
   width: 50%;
 }
-main .second_block_main {
+main .survey_block_main {
   margin-top: 125px;
   margin-bottom: 65px;
   display: flex;
 }
-main .second_block_main .first_half_main {
+main .survey_block_main .first_half_main {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: end;
 }
-main .second_block_main .first_half_main .block_text_main {
+main .survey_block_main .first_half_main .block_text_main {
   height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-main .second_block_main .first_half_main .block_text_main .main_title {
+main .survey_block_main .first_half_main .block_text_main .main_title {
   font-size: 18px;
   font-weight: 600;
   color: #58402c;
   letter-spacing: 1.2px;
   line-height: 1.9;
 }
-main .second_block_main .first_half_main .block_text_main .main_message {
+main .survey_block_main .first_half_main .block_text_main .main_message {
   font-size: 14px;
   font-weight: 300;
   color: #58402c;
   word-spacing: 10px;
   line-height: 1.5;
 }
-main .second_block_main .first_half_main .block_text_main .learn a:visited {
+main .survey_block_main .first_half_main .block_text_main .learn a:visited {
   text-decoration: none;
 }
-main .second_block_main .first_half_main .block_text_main .learn a:link {
+main .survey_block_main .first_half_main .block_text_main .learn a:link {
   text-decoration: none;
 }
-main .second_block_main .first_half_main .insights {
+main .survey_block_main .first_half_main .insights {
   width: 50%;
 }
-main .second_block_main .first_half_main .insights .box_insight {
+main .survey_block_main .first_half_main .insights .box_insight {
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
-main .second_block_main .first_half_main .insights .box_insight img {
+main .survey_block_main .first_half_main .insights .box_insight img {
   width: 80%;
 }
-main .second_block_main .second_half_main {
+main .survey_block_main .second_half_main {
   width: 50%;
   height: 100%;
   display: flex;
@@ -415,7 +415,118 @@ main .second_block_main .second_half_main {
   justify-content: center;
   align-items: center;
 }
-main .second_block_main .second_half_main div .mainImg_Dimension {
+main .survey_block_main .second_half_main div .mainImg_Dimension {
+  width: 520px;
+  height: 315px;
+}
+main .review_block_main {
+  margin-top: 125px;
+  margin-bottom: 65px;
+  display: flex;
+}
+main .review_block_main .first_half_main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .review_block_main .first_half_main div .mainImg_Dimension {
+  width: 520px;
+  height: 315px;
+}
+main .review_block_main .second_half_main {
+  width: 50%;
+}
+main .review_block_main .second_half_main .block_text_main {
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .review_block_main .second_half_main .block_text_main .main_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #58402c;
+  letter-spacing: 1.2px;
+  line-height: 1.9;
+}
+main .review_block_main .second_half_main .block_text_main .main_message {
+  font-size: 14px;
+  font-weight: 300;
+  color: #58402c;
+  word-spacing: 10px;
+  line-height: 1.5;
+}
+main .review_block_main .second_half_main .block_text_main .learn a:visited {
+  text-decoration: none;
+}
+main .review_block_main .second_half_main .block_text_main .learn a:link {
+  text-decoration: none;
+}
+main .review_block_main .second_half_main .review img {
+  height: 50%;
+  width: 50%;
+}
+main .praise_block_main {
+  margin-top: 125px;
+  margin-bottom: 65px;
+  display: flex;
+}
+main .praise_block_main .first_half_main {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+main .praise_block_main .first_half_main .block_text_main {
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .praise_block_main .first_half_main .block_text_main .main_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #58402c;
+  letter-spacing: 1.2px;
+  line-height: 1.9;
+}
+main .praise_block_main .first_half_main .block_text_main .main_message {
+  font-size: 14px;
+  font-weight: 300;
+  color: #58402c;
+  word-spacing: 10px;
+  line-height: 1.5;
+}
+main .praise_block_main .first_half_main .block_text_main .learn a:visited {
+  text-decoration: none;
+}
+main .praise_block_main .first_half_main .block_text_main .learn a:link {
+  text-decoration: none;
+}
+main .praise_block_main .first_half_main .recognition {
+  width: 50%;
+}
+main .praise_block_main .first_half_main .recognition .box_recognition {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+main .praise_block_main .first_half_main .recognition .box_recognition img {
+  width: 80%;
+}
+main .praise_block_main .second_half_main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .praise_block_main .second_half_main div .mainImg_Dimension {
   width: 520px;
   height: 315px;
 }

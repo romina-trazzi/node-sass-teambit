@@ -2,8 +2,7 @@ main {
     font-family: map-get($fontFamily, robot);
     background-color: map-get($backgroundColor, regular);
 
-
-    & .first_block_main {
+    & .feedback_block_main {
         margin-top: 65px + 60px;
         margin-bottom: 65px;
         display: flex;
@@ -19,51 +18,51 @@ main {
             }
 
         }
-    }
 
+        & .second_half_main {
+            width: 50%;
 
-    & .second_half_main {
-        width: 50%;
+            & .block_text_main {
+                @include FlexAround (320px, column);
 
-        & .block_text_main {
-            @include FlexAround (320px, column);
+                & .main_title {
+                    @include Font(18px, 600);
+                    letter-spacing: 1.2px;
+                    line-height: 1.9;
+                }
 
-            & .main_title {
-                @include Font(18px, 600);
-                letter-spacing: 1.2px;
-                line-height: 1.9;
+                & .main_message {
+                    @include Font(14px, 300);
+                    word-spacing: 10px;
+                    line-height: 1.5;
+                }
+
+                & .learn {
+                    & a {
+                        &:visited {
+                            text-decoration: none;
+                        }
+
+                        &:link {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
             }
 
-            & .main_message {
-                @include Font(14px, 300);
-                word-spacing: 10px;
-                line-height: 1.5;
-            }
-
-            & .learn {
-                & a {
-                    &:visited {
-                        text-decoration: none;
-                    }
-
-                    &:link {
-                        text-decoration: none;
-                    }
+            & .communication {
+                & img {
+                    height: 50%;
+                    width: 50%;
                 }
             }
 
         }
 
-        & .communication {
-            & img {
-                height: 50%;
-                width: 50%;
-            }
-        }
-
     }
 
-    & .second_block_main {
+    & .survey_block_main {
         margin-top: 65px + 60px;
         margin-bottom: 65px;
         display: flex;
@@ -107,6 +106,135 @@ main {
                 width: 50%;
 
                 & .box_insight {
+                    @include FlexEnd (100%, row);
+
+                    & img {
+                        width: 80%;
+
+                    }
+                }
+            }
+
+        }
+
+
+        & .second_half_main {
+            width: 50%;
+            @include FlexCenter(100%, row);
+
+            & div {
+                & .mainImg_Dimension {
+                    @include MainImg-Dimension;
+                }
+            }
+
+        }
+    }
+
+    & .review_block_main {
+        margin-top: 65px + 60px;
+        margin-bottom: 65px;
+        display: flex;
+
+        & .first_half_main {
+            width: 50%;
+            @include FlexCenter(100%, row);
+
+            & div {
+                & .mainImg_Dimension {
+                    @include MainImg-Dimension;
+                }
+            }
+
+        }
+
+        & .second_half_main {
+            width: 50%;
+
+            & .block_text_main {
+                @include FlexAround (320px, column);
+
+                & .main_title {
+                    @include Font(18px, 600);
+                    letter-spacing: 1.2px;
+                    line-height: 1.9;
+                }
+
+                & .main_message {
+                    @include Font(14px, 300);
+                    word-spacing: 10px;
+                    line-height: 1.5;
+                }
+
+                & .learn {
+                    & a {
+                        &:visited {
+                            text-decoration: none;
+                        }
+
+                        &:link {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+            & .review {
+                & img {
+                    height: 50%;
+                    width: 50%;
+                }
+            }
+
+        }
+
+    }
+
+    & .praise_block_main {
+        margin-top: 65px + 60px;
+        margin-bottom: 65px;
+        display: flex;
+
+        & .first_half_main {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+
+            & .block_text_main {
+                @include FlexAround (320px, column);
+
+                & .main_title {
+                    @include Font(18px, 600);
+                    letter-spacing: 1.2px;
+                    line-height: 1.9;
+                }
+
+                & .main_message {
+                    @include Font(14px, 300);
+                    word-spacing: 10px;
+                    line-height: 1.5;
+                }
+
+                & .learn {
+                    & a {
+                        &:visited {
+                            text-decoration: none;
+                        }
+
+                        &:link {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+            & .recognition {
+                width: 50%;
+
+                & .box_recognition {
                     @include FlexEnd (100%, row);
 
                     & img {
