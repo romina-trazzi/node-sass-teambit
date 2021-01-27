@@ -26,10 +26,14 @@ navbar {
     @include SectionDimension(100%, 1900px);
 }
 
-.main {
-    @include SectionDimension(100%, 2160px);
+main {
+    @include SectionDimension(100%, 2600px);
 }
 
 .start {
+    @include SectionDimension(100%, 815px);
+}
+
+footer {
     @include SectionDimension(100%, 815px);
 }

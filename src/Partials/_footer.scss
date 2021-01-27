@@ -1,0 +1,32 @@
+footer {
+    font-family: map-get($fontFamily, robot);
+    background-color: map-get($backgroundColor, regular);
+    @include Font(18px, 300);
+    margin-top: 65px;
+    
+    & .table {
+        @include FlexAround(100%, row);
+
+        & .logo-mini {
+            width: 30%;
+        }
+        
+        & div {
+            @include Font(18px, 600);
+            display: flex;
+            flex-direction: column;
+            
+            & div {
+                margin-bottom: 40px;
+            }
+        
+            & span {
+                @include Font(16px, 600);
+                width: 40%;
+                line-height: 1.9;
+            }
+
+        }   
+
+    }    
+}
