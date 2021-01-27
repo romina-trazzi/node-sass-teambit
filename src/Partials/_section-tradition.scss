@@ -3,65 +3,123 @@
     font-family: map-get($fontFamily, robot);
     background-color: map-get($backgroundColor, special);
 
-    & .title_block {
-        height: 190px;
+    & .first_half_tradition {
+        & .title_block {
+            height: 190px;
 
-        & h2 {
-            padding-top: 60px;
-            text-align: center;
-            line-height: 1.9;
-            letter-spacing: 1.5px;
+            & h2 {
+                padding-top: 60px;
+                text-align: center;
+                line-height: 1.9;
+                letter-spacing: 1.5px;
+            }
         }
-    }
 
-    & .first_block {
-        height: 190px;
-        display: flex;
-
-        & .box_image {
-            height: 140px;
+        & .first_block {
+            height: 190px;
             display: flex;
-            flex-direction: column;
-            text-align: center;
 
-            & div {
-                height: 100%;
+            & .box_image {
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                & div {
+                    height: 100%;
+
+                    & img {
+                        width: 40%;
+                    }
+                }
+
+                & .issue {
+                    padding-top: 50px;
+                }
+            }
+        }
+
+        & .second_block {
+            height: 532px;
+            width: 100%;
+            position: relative;
+
+            & .box_image_before {
+                @include FlexCenter(100%, row);
 
                 & img {
-                    width: 40%;
+                    height: 50%;
                 }
             }
 
-            & .issue {
-                padding-top: 50px;
+            & .border {
+                border-bottom: 1px solid rgb(88, 44, 64);
+                display: inline-block;
+                width: 80%;
+                position: absolute;
+                left: 10%;
             }
+
+
+
+
         }
     }
 
-    & .second_block {
-        height: 532px;
-        width: 100%;
-        position: relative;
+    & .second_half_tradition {
+        & .title_block {
+            height: 325px;
 
-        & .box_image_before {
-            @include FlexCenter(100%, row);
-
-            & img {
-                height: 50%;
+            & h2 {
+                padding-top: 135px;
+                text-align: center;
+                line-height: 1.9;
+                letter-spacing: 1.5px;
             }
         }
 
-        & .border {
-            border-bottom: 1px solid rgb(88, 44, 64);
-            display: inline-block;
-            width: 80%;
-            position: absolute;
-            left: 10%;
+        & .first_block {
+            height: 190px;
+            display: flex;
+
+            & .box_image {
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                & div {
+                    height: 100%;
+
+                    & img {
+                        width: 40%;
+                    }
+                }
+
+                & .issue {
+                    padding-top: 50px;
+                }
+            }
         }
 
+        & .second_block {
+            height: 532px;
+            width: 100%;
+            position: relative;
+
+            & .box_image_before {
+                @include FlexCenter(100%, row);
+
+                & img {
+                    height: 50%;
+                }
+            }
 
 
 
+
+        }
     }
+
 
 }
