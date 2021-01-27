@@ -1,5 +1,0 @@
-.tradition {
-    @include Font (16px, 300);
-    font-family: map-get($fontFamily, robot);
-    background-color: map-get($backgroundColor, special);
-}

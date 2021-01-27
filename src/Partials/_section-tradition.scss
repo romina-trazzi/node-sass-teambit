@@ -1,0 +1,67 @@
+.tradition {
+    @include Font(16px, 300);
+    font-family: map-get($fontFamily, robot);
+    background-color: map-get($backgroundColor, special);
+
+    & .title_block {
+        height: 190px;
+
+        & h2 {
+            padding-top: 60px;
+            text-align: center;
+            line-height: 1.9;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    & .first_block {
+        height: 190px;
+        display: flex;
+
+        & .box_image {
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            & div {
+                height: 100%;
+
+                & img {
+                    width: 40%;
+                }
+            }
+
+            & .issue {
+                padding-top: 50px;
+            }
+        }
+    }
+
+    & .second_block {
+        height: 532px;
+        width: 100%;
+        position: relative;
+
+        & .box_image_before {
+            @include FlexCenter(100%, row);
+
+            & img {
+                height: 50%;
+            }
+        }
+
+        & .border {
+            border-bottom: 1px solid rgb(88, 44, 64);
+            display: inline-block;
+            width: 80%;
+            position: absolute;
+            left: 10%;
+        }
+
+
+
+
+    }
+
+}

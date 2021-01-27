@@ -1,7 +1,5 @@
-$backgroundColor: (
-    "regular": white,
-    "special": rgb(255, 231, 210)
-);
+$backgroundColor: ("regular": white,
+    "special": rgb(255, 231, 210));
 
 $fontFamily: ("regular": "Arial",
     "bold": "Arial Black",
@@ -16,9 +14,7 @@ $fontFamily: ("regular": "Arial",
 
 ;
 
-$colorPalette: (
-    "ocean": rgb(44, 71, 146)
-);
+$colorPalette: ("ocean": rgb(44, 71, 146));
 
 
 /* Mixin di Flexbox */
@@ -43,6 +39,13 @@ $colorPalette: (
     display: flex;
     flex-direction: $direction;
     justify-content: space-between;
+}
+
+@mixin FlexEvenly($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-evenly;
 }
 
 /* End Mixin di Flexbox */
