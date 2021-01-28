@@ -5,11 +5,25 @@ footer {
     
     & .table {
         display: flex;
-        justify-content: center;
+        position: relative;
+        right: -3%;
+       
 
-        #logo-mini {
-            width: 50%;
-            @include Font(18px, 600);
+        #logo_mini {
+            width: 30%;
+            @include Font(20px, 300);
+            display: flex;
+            justify-content: start;
+            & .logo_footer {
+                & #teambit {
+                    color: map-get($colorPalette, ocean);
+                    @include Font(12px, 600);
+                    vertical-align: middle;
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+            }
+            
         }
         
         & .col_footer {

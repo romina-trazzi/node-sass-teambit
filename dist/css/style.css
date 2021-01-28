@@ -651,13 +651,25 @@ footer {
 }
 footer .table {
   display: flex;
-  justify-content: center;
+  position: relative;
+  right: -3%;
 }
-footer .table #logo-mini {
-  width: 50%;
-  font-size: 18px;
+footer .table #logo_mini {
+  width: 30%;
+  font-size: 20px;
+  font-weight: 300;
+  color: #58402c;
+  display: flex;
+  justify-content: start;
+}
+footer .table #logo_mini .logo_footer #teambit {
+  color: #2c4792;
+  font-size: 12px;
   font-weight: 600;
   color: #58402c;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 footer .table .col_footer {
   display: flex;
