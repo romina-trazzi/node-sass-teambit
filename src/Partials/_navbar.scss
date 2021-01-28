@@ -1,10 +1,10 @@
 navbar {
     @include FlexBetween(70px, row);
-    @include Font(13px, 700);
+    @include Font(15px, 700);
     font-family: map-get($fontFamily, robot);
     background-color: map-get($backgroundColor, regular);
     padding: 22px;
-    border-bottom: 1px solid rgb(88, 44, 64);
+    border-bottom: 1px solid map-get($colorPalette, choco);
     padding: 10px;
 
     .navbar_sx {
