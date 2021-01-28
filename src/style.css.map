@@ -9,7 +9,9 @@
         "Partials/_jumbotron.scss",
         "Partials/_section-tradition.scss",
         "Partials/_main.scss",
-        "Partials/_section-start.scss"
+        "Partials/_section-start.scss",
+        "Partials/_footer.scss",
+        "Partials/_mediaQuery"
     ],
     "names": [],
     "file": "style.css"

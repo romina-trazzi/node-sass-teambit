@@ -16,12 +16,32 @@ navbar {
         width: 45%;
         height: 100%;
         & div {
-            @include FlexBetween(100%, row);
             width: 100%;
-            align-items: center;
         }
+        & ul {
+            @include FlexBetween(100%, row);
+            align-items: center;
+            & li {
+                list-style-type: none;
+            
+                & a {
+                    &:visited {
+                        @include Font (18px, 300);
+                        font-family: map-get($fontFamily, robot);
+                        text-decoration: none;
+                    }
+    
+                    &:link {
+                        @include Font (16px, 300);
+                        font-family: map-get($fontFamily, robot);
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+           
          
-        & span:nth-child(5) {
+        & li:nth-child(5) {
             @include FlexCenter(100%, row);
             border: 1px solid map-get($colorPalette, ocean);
             border-radius: 5px;    ;

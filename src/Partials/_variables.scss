@@ -3,10 +3,10 @@
     height: $h;
 };
 
-
 $backgroundColor: (
     "regular": white,
-    "special": rgb(255, 231, 210));
+    "special": rgb(255, 231, 210)
+);
 
 $fontFamily: (
     "regular": "Arial",
@@ -20,8 +20,6 @@ $fontFamily: (
     color: rgb(88, 64, 44);
 };
 
-;
-
 @mixin MainImg-Dimension {
     width: 520px;
     height: 315px;
@@ -29,8 +27,8 @@ $fontFamily: (
 
 $colorPalette: (
     "ocean": rgb(44, 71, 146),
-    "choco": rgb(88, 64, 44));
-
+    "choco": rgb(88, 64, 44)
+);
 
 /* Mixin di Flexbox */
 
